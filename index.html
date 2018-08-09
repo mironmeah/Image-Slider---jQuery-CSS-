@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Draggable Div</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        
+        <style type="text/css">
+            
+            #slider{
+                width: 800px;
+                height: 350px;
+                overflow: hidden;
+                margin: 30px auto;
+                background-image: url(img/Loader.gif);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            .shadow{
+                background-image: url(img/shadow.jpg);
+                background-repeat: no-repeat;
+                background-position: top;
+                width: 864px;
+                height: 144px;
+                margin: -60px auto;
+            }
+            
+            #slider img{
+                width: 800px;
+                height: 350px;
+                display: none;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="wrapper">
+        <div id="slider">
+            <img id="1" src="img/HelpingDevelop.jpg" border="0" alt="Helping Develop" />
+            <img id="2" src="img/Sleekode.jpg" border="0" alt="Sleekode Network" />
+            <img id="3" src="img/slider.jpg" border="0" alt="Image Slider" />            
+            <img id="4" src="img/beauty.jpg" border="0" alt="Beautiful Picture" />            
+        </div>
+            
+            <a href="#" class="left">Previous</a>
+            <a href="#" class="right">Next</a>
+        </div>
+        
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
